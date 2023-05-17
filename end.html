@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>End Page</title>
+    <!-- Links -->
+    <link rel="stylesheet" href="CSS/styles.css">
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+    integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+    crossorigin="anonymous"
+    eferrerpolicy="no-referrer"
+    />
+    <link rel="shortcut icon" href="img/bxs-graduation.svg" type="image/x-icon">
+</head>
+<body>
+    <div class="container">
+        <div id="end" class="flex-center flex-column">
+            <h1 id="finalScore">0</h1>
+            <form class="end-form-container">
+                <h2 id="end-text">Coloque seu nome para registrar seu record</h2>
+                <input type="text" name="name" id="username" placeholder="Coloque seu nome">
+                <button class="btn" id="saveScoreBtn" type="submit" onclick="saveHighScore(event)">Salvar</button>
+            </form>
+            <a href="/game.html" class="btn">Jogar de Novo</a>
+            <a href="/index.html" class="btn">Voltar para página inicial <i class="fas fa-home"></i></a>
+        </div>
+    </div>
+    <script src="Js/end.js"></script>
+</body>
+</html>
